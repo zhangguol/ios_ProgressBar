@@ -21,6 +21,8 @@
 		B2C161E7191AF7A6009BF03E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C161C9191AF7A6009BF03E /* UIKit.framework */; };
 		B2C161EF191AF7A6009BF03E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2C161ED191AF7A6009BF03E /* InfoPlist.strings */; };
 		B2C161F1191AF7A6009BF03E /* ProgressBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C161F0191AF7A6009BF03E /* ProgressBarTests.m */; };
+		B2C161FF191AF817009BF03E /* ProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C161FE191AF817009BF03E /* ProgressBar.m */; };
+		B2C16202191AF8D8009BF03E /* PBLine.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C16201191AF8D8009BF03E /* PBLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		B2C161EC191AF7A6009BF03E /* ProgressBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProgressBarTests-Info.plist"; sourceTree = "<group>"; };
 		B2C161EE191AF7A6009BF03E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B2C161F0191AF7A6009BF03E /* ProgressBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressBarTests.m; sourceTree = "<group>"; };
+		B2C161FD191AF817009BF03E /* ProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressBar.h; sourceTree = SOURCE_ROOT; };
+		B2C161FE191AF817009BF03E /* ProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressBar.m; sourceTree = SOURCE_ROOT; };
+		B2C16200191AF8D8009BF03E /* PBLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBLine.h; sourceTree = "<group>"; };
+		B2C16201191AF8D8009BF03E /* PBLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBLine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				B2C161D7191AF7A6009BF03E /* Main.storyboard */,
 				B2C161DA191AF7A6009BF03E /* PBViewController.h */,
 				B2C161DB191AF7A6009BF03E /* PBViewController.m */,
+				B2C161FD191AF817009BF03E /* ProgressBar.h */,
+				B2C161FE191AF817009BF03E /* ProgressBar.m */,
+				B2C16200191AF8D8009BF03E /* PBLine.h */,
+				B2C16201191AF8D8009BF03E /* PBLine.m */,
 				B2C161DD191AF7A6009BF03E /* Images.xcassets */,
 				B2C161CC191AF7A6009BF03E /* Supporting Files */,
 			);
@@ -252,7 +262,9 @@
 			files = (
 				B2C161D6191AF7A6009BF03E /* PBAppDelegate.m in Sources */,
 				B2C161DC191AF7A6009BF03E /* PBViewController.m in Sources */,
+				B2C161FF191AF817009BF03E /* ProgressBar.m in Sources */,
 				B2C161D2191AF7A6009BF03E /* main.m in Sources */,
+				B2C16202191AF8D8009BF03E /* PBLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
